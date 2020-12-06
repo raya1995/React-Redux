@@ -1,0 +1,39 @@
+.card{
+    width: 80%;
+    display: flex;
+   /* height: 80px;*/
+    margin-bottom: 15px;
+  
+
+  }
+  .card-body {
+   /* width: 70%;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 20px;
+
+ 
+  }
+
+
+  #myDIV {
+   /* width: 300px;*/
+   /* height: 200px;*/
+    /*background: red;*/
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+  }
+
+  .container > div {
+    
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
